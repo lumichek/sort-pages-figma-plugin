@@ -1,0 +1,9 @@
+{
+  "name": "Sort Pages",
+  "id": "1014023782853596733",
+  "api": "1.0.0",
+  "main": "index.js",
+  "editorType": [
+    "figma"
+  ]
+}
