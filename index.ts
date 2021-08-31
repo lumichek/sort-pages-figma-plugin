@@ -8,7 +8,8 @@ figma
   });
 
 pages
-  .sort((a: PageNode, b: PageNode) => a.name.localeCompare(b.name))
+  .sort((a: PageNode, b: PageNode) =>
+    a.name.toLowerCase().localeCompare(b.name.toLowerCase()))
   .forEach((page: PageNode) => {
     figma.root.appendChild(page);
   });
