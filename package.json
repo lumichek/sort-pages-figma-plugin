@@ -1,0 +1,14 @@
+{
+  "name": "sort_pages",
+  "version": "1.0.0",
+  "description": "Sort figma pages alphabetically",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "chernoskutova.ann@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.32.0"
+  }
+}
